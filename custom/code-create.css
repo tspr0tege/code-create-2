@@ -1,0 +1,10 @@
+#nav {
+  position: relative;
+}
+
+#nav .sign-up-button {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 8px);
+  transform: translateY(-50%);
+}

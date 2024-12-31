@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "name": "code-create-2",
+  "version": "1.0.0",
+  "description": "Code Create main website January 2025",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Squall Leonhart",
+  "license": "ISC"
+}
