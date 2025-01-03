@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  padding: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
 #nav {
   position: relative;
 }
@@ -7,4 +18,63 @@
   right: 20px;
   top: calc(50% - 8px);
   transform: translateY(-50%);
+}
+
+section {
+  scroll-margin-top: 112px;
+}
+
+#banner {
+  background-image: url("../../images/developer-8829709_1280.jpg");
+}
+
+#banner header {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(60deg, #000d 40%, #0000 85%);
+}
+
+#banner header > * {
+  max-width: 50%;
+}
+
+#banner header h2 {
+  font-size: 2.25em;
+  font-weight: 600;
+  line-height: 1.1em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+section.sub-banner {
+  justify-content: center;
+  display: flex;
+  background: #191919bb;
+  color: #fff;
+  padding: 1.5em 0;
+}
+
+section.sub-banner header h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+section.sub-banner header a.button {
+  margin-left: 1em;
+}
+
+
+
+
+@media (max-width: 840px) {
+
+  section {
+    scroll-margin-top: 44px;
+  }
+
 }
